@@ -1,0 +1,52 @@
+{
+	"mcpServers": {
+		"playwright": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"@playwright/mcp@latest"
+			],
+			"env": {}
+		},
+		"context7": {
+			"type": "http",
+			"url": "https://mcp.context7.com/mcp"
+		},
+		"sequential-thinking": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"-y",
+				"@modelcontextprotocol/server-sequential-thinking"
+			]
+		},
+		"shadcn": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"shadcn@latest",
+				"mcp"
+			]
+		},
+		"task-master-ai": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"-y",
+				"task-master-ai"
+			],
+			"env": {
+				"TASK_MASTER_TOOLS": "core"
+			}
+		},
+		"shrimp-task-manager": {
+			"command": "node",
+			"args": ["/Users/wyeong.lee/workspace/mcp-shrimp-task-manager/dist/index.js"],
+			"env": {
+				"DATA_DIR": "/Users/wyeong.lee/workspace/invoice-web/shrimp_data",
+				"TEMPLATES_USE": "en",
+				"ENABLE_GUI": "true"
+			}
+		}
+    }
+}
