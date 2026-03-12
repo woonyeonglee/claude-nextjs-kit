@@ -43,7 +43,7 @@
 			"command": "node",
 			"args": ["/Users/wyeong.lee/workspace/mcp-shrimp-task-manager/dist/index.js"],
 			"env": {
-				"DATA_DIR": "/Users/wyeong.lee/workspace/invoice-web/shrimp_data",
+				"DATA_DIR": "/Users/wyeong.lee/workspace/claude-nextjs-kit/shrimp_data",
 				"TEMPLATES_USE": "en",
 				"ENABLE_GUI": "true"
 			}
